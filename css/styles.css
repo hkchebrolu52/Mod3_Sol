@@ -5,7 +5,7 @@
 	border:2.5px solid black;
 	padding:0;
 	margin:0;
-	background-color: rgb(153,153,153);
+	background-color: blue;
 
 }
 .col-xs-12{
@@ -22,19 +22,26 @@ h1{
 
 	
 }
+
+#menu a:hover{
+	background: #E7E7E7;
+	color: #951C49;
+	font-weight: bold;
+}
+
 .navbar-header .navbar-toggle{
 	border: 1.5px solid black;
 }
 .navbar-header .navbar-toggle .icon-bar{
 	border: 2px solid black;
 }
-.dropmenu{
+ .dropmenu{
 	
 	width:100%;
 }
 .chicken,.beef,.sushi{
 	margin: 27px;
-	background-color: rgb(153,153,153);
+	background-color: green;
 	padding: 10px;
 
 }
@@ -45,19 +52,17 @@ h1{
 #menu>li:last-child{
 	border: none;
 }
-#menu>li{
-	color:inherit;
-}
+
 
 h3{
 	margin-top: 0;
-	color:black;
+	color:yellow;
 }
 
 @media (max-width: 767px){
 
 	#bs-example-navbar-collapse-1{
-	background-color: rgb(255,255,255);
+	background-color:green;
 	border:3px solid black;
 	color:rgb(180,202,223);
     font-size:0.9em;
